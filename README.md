@@ -9,8 +9,12 @@ Students are expected to:
 
 Student Info
 =======================
+* Name: *Hồ Thanh Thủy Tiên*
+* ID: *22BI13419*
+* Group ID: *7*
+* Project Name: *Job Search Portal*
 
-* Name: Ho Thanh Thuy Tien
-* ID: 22BI13419
-* Group ID: 7
-* Project Name: Job Search Portal
+Group Rule
+=======================
+When create new pull request, please choose branch name develop/*your name*
+PLEASE DO NOT CREATE PULL REQUEST ON OTHER MEMBER BRANCH
