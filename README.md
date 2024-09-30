@@ -9,8 +9,12 @@ Students are expected to:
 
 Student Info
 =======================
-
 * Name: Vu Ha Vy
-* ID: 22bi13485
+* ID: 22BI13485
 * Group ID: 7
-* Project Name: job search portal
+* Project Name: Job Search Portal
+
+Group Rule
+=======================
+When create new pull request, please choose branch name develop/*your name*
+PLEASE DO NOT CREATE PULL REQUEST ON OTHER MEMBER BRANCH
