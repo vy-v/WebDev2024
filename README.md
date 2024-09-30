@@ -10,7 +10,7 @@ Students are expected to:
 Student Info
 =======================
 
-* Name: *YourNameHere*
-* ID: *YourIdHere*
-* Group ID: *Your Group ID here*
-* Project Name: *Your Project Name here*
+* Name: *Đỗ Minh Quang*
+* ID: *22BI12279*
+* Group ID: *7*
+* Project Name: *Job Search Portal*
