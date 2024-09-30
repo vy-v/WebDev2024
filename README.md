@@ -10,7 +10,7 @@ Students are expected to:
 Student Info
 =======================
 
-* Name: Le Anh Quang
-* ID: 22BI13380
-* Group ID: 7
-* Project Name: Job Search Portal
+* Name: *Đỗ Minh Quang*
+* ID: *22BI13379*
+* Group ID: *7*
+* Project Name: *Job Search Portal*
