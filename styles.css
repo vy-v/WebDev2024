@@ -1,0 +1,171 @@
+/* Reset default margins and paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Header styling */
+header {
+    background-color: #2f2434;
+    color: white;
+    padding: 20px 0;
+}
+
+header .container {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Hero Image Section */
+.hero-image {
+    background-image: url('job_image.jpeg'); 
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-image h2 {
+    color: white;
+    font-size: 3rem;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+/* Search Section */
+.search-section {
+    padding: 40px 0;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.search-section .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.search-section input[type="text"],
+.search-section select {
+    padding: 10px;
+    font-size: 1rem;
+    width: 200px;
+}
+
+.search-section button {
+    padding: 10px 20px;
+    background-color: #785b85;
+    color: white;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.search-section button:hover {
+    background-color: #785b85;
+}
+
+/* Featured Jobs Section */
+.featured-jobs {
+    background: #f4f4f4;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.featured-jobs h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.job-listing {
+    background: white;
+    padding: 20px;
+    margin: 15px auto;
+    width: 80%;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.job-listing h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.job-listing p {
+    margin-bottom: 10px;
+}
+
+.job-listing a {
+    display: inline-block;
+    padding: 10px 15px;
+    background: #785b85;
+    color: white;
+    text-decoration: none;
+}
+
+.job-listing a:hover {
+    background: #0056b3;
+}
+
+
+/* Footer Styling */
+footer {
+    background: #2f2434;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer ul {
+    list-style: none;
+    margin-top: 10px;
+}
+
+footer ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+footer ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
+}
