@@ -50,15 +50,18 @@ nav ul li a:hover {
     text-decoration: underline;
 }
 
-/* Hero Image Section */
-.hero-image {
-    background-image: url('images/job_image.jpeg'); 
+/* Banner Section */
+.banner {
+    background-image: url('images/banner/job_image.jpeg'); 
     background-size: cover;
     background-position: center;
     height: 700px;
     display: flex;
     justify-content: center;
     align-items: center;
+    color: #fff;
+    text-align: center;
+    padding: 80px 0;
 }
 
 /* Search Section */
@@ -202,6 +205,104 @@ nav ul li a:hover {
     content: "⏳";
     margin-right: 5px;
 }
+
+/* Intro Styling */
+.best-job {
+    background-color: #f8f9fa;
+    padding: 60px 100px;
+  }
+  
+  .best-job .row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .best-job .col-text {
+    flex: 1;
+    padding-right: 20px;
+  }
+  
+  .best-job .col-text h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .best-job .col-text p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    color: #6c757d;
+  }
+  
+  .best-job .col-text .btn {
+    background-color: #785b85;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  
+  .best-job .col-image {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .best-job .col-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px; 
+  }
+  
+  
+  /* Review Styling */
+  .review {
+    background-color: #e9ecef;
+    padding: 60px 0;
+    text-align: center;
+  }
+  
+  .review h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+  }
+  
+  .review .row {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .review-card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 300px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .review-card img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+  }
+  
+  .review-card p {
+    font-size: 16px;
+    color: #6c757d;
+  }
+  
+  .review-card h4 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .review-card p:last-child {
+    font-size: 14px;
+    color: #6c757d;
+  }
 
 /* Footer Styling */
 footer {
