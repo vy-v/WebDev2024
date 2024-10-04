@@ -19,7 +19,7 @@
                     <li><a href="#">Find Jobs</a></li>
                     <li><a href="#">Post a Job</a></li>
                     <li><a href="#">About Us</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Sign in</a></li>
                 </ul>
             </nav>
         </div>
@@ -37,7 +37,7 @@
             <form action="" method="GET">
                 <input type="text" name="keyword" placeholder="Job title, keywords" required>
                 <input type="text" name="location" placeholder="Location" required>
-                <select name="category">
+                <select name="category" required>
                     <option value="">Select Category</option>
                     <option value="IT">IT & Software</option>
                     <option value="Finance">Finance</option>
@@ -53,34 +53,50 @@
     <section class="featured-jobs">
         <div class="container">
             <h2>Featured Jobs</h2>
+            
+            <!-- Job Listing 1 -->
             <div class="job-listing">
-                <h3>Software Developer</h3>
-                <p>Company: Tech Corp</p>
-                <p>Location: San Francisco, CA</p>
-                <p>Salary: $100,000 - $120,000</p>
-                <a href="#">View Details</a>
+                <div class="job-header">
+                    <img src="images/up-logo.png" alt="Up Logo" class="company-logo">
+                    <div class="job-title-container">
+                        <h3>Senior UX Designer</h3>
+                        <span class="job-type contract">Contract Base</span>
+                    </div>
+                    <button class="apply-button">Apply Now</button>
+                </div>
+                <div class="job-details">
+                    <p><span class="location-icon"></span> Australia</p>
+                    <p><span class="salary-icon"></span> $30K-$35K</p>
+                    <p><span class="time-icon"></span> 4 Days Remaining</p>
+                </div>
             </div>
+
+            <!-- Job Listing 2 -->
             <div class="job-listing">
-                <h3>Marketing Specialist</h3>
-                <p>Company: Marketing Pros</p>
-                <p>Location: New York, NY</p>
-                <p>Salary: $60,000 - $80,000</p>
-                <a href="#">View Details</a>
+                <div class="job-header">
+                    <img src="images/apple-logo.png" alt="Apple Logo" class="company-logo">
+                    <div class="job-title-container">
+                        <h3>Software Engineer</h3>
+                        <span class="job-type full-time">Full Time</span>
+                    </div>
+                    <button class="apply-button">Apply Now</button>
+                </div>
+                <div class="job-details">
+                    <p><span class="location-icon"></span> China</p>
+                    <p><span class="salary-icon"></span> $50K-$60K</p>
+                    <p><span class="time-icon"></span> 4 Days Remaining</p>
+                </div>
             </div>
-            <div class="job-listing">
-                <h3>Data Analyst</h3>
-                <p>Company: FinTech Solutions</p>
-                <p>Location: Austin, TX</p>
-                <p>Salary: $80,000 - $100,000</p>
-                <a href="#">View Details</a>
-            </div>
+
+            <!-- Add more job listings as necessary following the same structure -->
         </div>
     </section>
+
 
     <!-- Footer Section -->
     <footer>
         <div class="container">
-            <p>&copy; 2024 JobFinder. All rights reserved.</p>
+            <p>&copy; 2024 WebPro - Group 7. All rights reserved.</p>
             <ul>
                 <li><a href="#">Privacy Policy</a></li>
                 <li><a href="#">Terms of Service</a></li>
