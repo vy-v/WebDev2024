@@ -1,0 +1,53 @@
+.mission img {
+    width: 800px;
+    padding-right: 300px;
+    
+}
+.mission {
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10;
+}
+.missiontext {
+    padding-top: 20px;
+    width: auto;
+    padding-right: 80px;
+}
+.mission p {
+    font-size: 80%;
+    color : #767F8C;
+    padding-left: 50%;
+    font-size: 1em;
+}
+
+.mission h3 {
+    font-size: 30px;
+    padding-left: 50%;
+}
+
+footer {
+    background: #2f2434;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer ul {
+    list-style: none;
+    margin-top: 10px;
+}
+
+footer ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+footer ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
+}
