@@ -18,17 +18,15 @@
                     <li><a href="HomePage.html">Home</a></li>
                     <li><a href="FindJobs.html">Find Jobs</a></li>
                     <li><a href="AboutUs.html">About Us</a></li>
-                    <li><a href="#">Sign in</a></li>
+                    <li><a href="SignUp.html">Sign in</a></li>
                 </ul>
             </nav>
         </div>
     </header>
 
-
-    <!-- Banner Section -->
-    <section class="banner">
+    <!-- Intro Section -->
+    <section class="intro">
     </section>
-    <main>
 
     <!-- Job Card Section -->
     <div class="job-card">
@@ -61,7 +59,7 @@
                 </div>
 
                 <!-- Apply Now Button (Top Right) -->
-                <a href="#" class="apply-now-btn">Apply Now</a>
+                <a href="#" class="apply-now-btn" id="applyBtn">Apply Now</a>
             </div>
 
             <!-- Job Expiry Date -->
@@ -165,10 +163,99 @@
             </div>
         </div>
     </div>
-    
-    
+   
+    <!-- Related Jobs -->
+    <div class="related-jobs-section">
+        <h2>Related Jobs</h2>
+        <div class="related-navigation">
+            <button class="related-nav-button">←</button>
+            <button class="related-nav-button">→</button>
+        </div>
+        <div class="jobs-card-container">
+            <div class="related-job-card">
+                <div class="related-job-header">
+                    <img src="images/company/google.png" alt="Google">
+                    <h3>Visual Designer</h3>
+                    <span class="related-badge">Featured</span>
+                </div>
+                <div class="related-job-location">
+                    <img src="images/jobDetailedRelatedIcon/location.png" alt="Location Icon"> China
+                </div>
+                <div class="related-job-salary">$10K - $15K</div>
+            </div>
+            <div class="related-job-card">
+                <div class="related-job-header">
+                    <img src="images/company/figma.png" alt="Figma">
+                    <h3>Front End Developer</h3>
+                </div>
+                <div class="related-job-location">
+                    <img src="images/jobDetailedRelatedIcon/location.png" alt="Location Icon"> Australia
+                </div>
+                <div class="related-job-salary">$50K - $80K</div>
+            </div>
+            <div class="related-job-card">
+                <div class="related-job-header">
+                    <img src="images/company/up.png" alt="Upwork">
+                    <h3>Technical Support Specialist</h3>
+                </div>
+                <div class="related-job-location">
+                    <img src="images/jobDetailedRelatedIcon/location.png" alt="Location Icon"> France
+                </div>
+                <div class="related-job-salary">$35K - $40K</div>
+            </div>
+            <div class="related-job-card">
+                <div class="related-job-header">
+                    <img src="images/company/facebook.png" alt="Facebook">
+                    <h3>Software Engineer</h3>
+                </div>
+                <div class="related-job-location">
+                    <img src="images/jobDetailedRelatedIcon/location.png" alt="Location Icon"> United Kingdom
+                </div>
+                <div class="related-job-salary">$15K - $20K</div>
+            </div>
+            <div class="related-job-card">
+                <div class="related-job-header">
+                    <img src="images/company/microsoft.png" alt="Microsoft">
+                    <h3>Product Designer</h3>
+                </div>
+                <div class="related-job-location">
+                    <img src="images/jobDetailedRelatedIcon/location.png" alt="Location Icon"> Australia
+                </div>
+                <div class="related-job-salary">$40K - $50K</div>
+            </div>
+            <div class="related-job-card">
+                <div class="related-job-header">
+                    <img src="images/company/youtube.png" alt="YouTube">
+                    <h3>Interaction Designer</h3>
+                </div>
+                <div class="related-job-location">
+                    <img src="images/jobDetailedRelatedIcon/location.png" alt="Location Icon"> Germany
+                </div>
+                <div class="related-job-salary">$20K - $25K</div>
+            </div>
+        </div>
+    </div>
 
+    <!-- Popup -->
+    <div id="applyPopup" class="popup">
+        <div class="popup-content">
+            <span class="close">&times;</span>
+            <h2 class="popup-title">Apply Job: Senior UX Designer</h2>
 
+            <label for="resume">Choose Resume:</label>
+            <select id="resume">
+                <option value="">Select...</option>
+                <option value="computer">Upload from Computer</option>
+                <option value="website">Link from Website</option>
+            </select>
+
+            <label for="coverLetter">Cover Letter:</label>
+            <textarea id="coverLetter" placeholder="Write down your biography here..."></textarea>
+            <button id="submitBtn">Apply Now</button>
+        </div>
+    </div>
+    <script src="Popup.js"></script>
+    
     <!-- Footer Section -->
     <footer>
         <div class="container">
